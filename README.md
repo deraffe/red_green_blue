@@ -15,4 +15,9 @@ Quoting [Hackaday](https://hackaday.com/2019/03/10/bash-pipeline-puzzle-green-bl
     is the sometimes the entire left-hand part of the line doesn’t do
     anything.
 
+Recommended test can be found in `test.sh`.
+```bash
+source test.sh
+```
+
 <!-- vim: set ts=4 sw=4 tw=72 et : -->
