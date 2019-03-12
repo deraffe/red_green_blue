@@ -1,0 +1,7 @@
+#!/usr/bin/env dash
+i=0
+while [ $i -lt "${1:-100}" ]; do
+  ( (echo red ; echo green 1>&2) | echo blue) 2>&1 | tr '\n' ' '
+  echo
+  i=$((${i}+1))
+done | sort | uniq -c
