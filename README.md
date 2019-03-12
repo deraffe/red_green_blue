@@ -7,6 +7,7 @@ Inspired by https://utcc.utoronto.ca/~cks/space/blog/unix/ShellPipelineIndetermi
 ```
 
 Quoting [Hackaday](https://hackaday.com/2019/03/10/bash-pipeline-puzzle-green-blue-or-blue-green/):
+
     You’d like to think it prints three lines: red, green, and blue. But
     would you be surprised to find out that it can sometimes output
     “blue green” and sometimes just output blue. The first surprise is
